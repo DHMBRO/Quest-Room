@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6775222519428293549}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2141249684498501312}
@@ -61,7 +61,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.25, z: 1}
+  m_Size: {x: 0.5, y: 0.01, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1890815041914939691
 PrefabInstance:
@@ -126,6 +126,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3459286550b366c4fa72a03b3aeff111, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 65130fa294f4c1c46bc36d73bf49599a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bd6fb49e4ca66144b8465c00bc8c50e4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65130fa294f4c1c46bc36d73bf49599a, type: 3}
 --- !u!4 &2141249684498501312 stripped

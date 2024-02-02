@@ -8,6 +8,8 @@ public class MovementForCamera : MonoBehaviour
     [SerializeField] float DefaultSpeed = 1.0f;
     [SerializeField] float SpeedJump = 0.5f;
     [SerializeField] float SpeedBoost = 1.5f;
+
+    [SerializeField] bool CameraIsWorking = false;
     
     float CurrentSpeed;
 
@@ -18,14 +20,19 @@ public class MovementForCamera : MonoBehaviour
     float MouseX;
     float MouseY;
 
-    private void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
-
     void Update()
     {
+        if (Input.GetKey(KeyCode.Escape)) CameraIsWorking = false;
+        else if (Input.GetKey(KeyCode.Mouse1)) CameraIsWorking = true;
+
+        if (!CameraIsWorking)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            return;
+        }
+        else Cursor.lockState = CursorLockMode.Locked;
+
+
         AxisHorizontal = Input.GetAxis("Horizontal");
         AxisVertical = Input.GetAxis("Vertical");
         AxisJump = Input.GetAxis("Jump");        

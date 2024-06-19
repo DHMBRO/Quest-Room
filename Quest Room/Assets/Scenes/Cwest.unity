@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &73454373 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 445211884386285412, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-  m_PrefabInstance: {fileID: 3958132828172335063}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439668916
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,11 +933,6 @@ Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1999179896722406901, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
   m_PrefabInstance: {fileID: 3958132828172335063}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2025009964 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3597391827181716197, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-  m_PrefabInstance: {fileID: 3958132828172335063}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3958132828172335063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1003,24 +993,8 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7177918115359442196, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-      propertyPath: Camera
-      value: 
-      objectReference: {fileID: 73454373}
-    - target: {fileID: 7177918115359442196, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-      propertyPath: SpeedForRun
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177918115359442196, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-      propertyPath: SpeedForMove
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 7177918115359442196, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
       propertyPath: PlayerRigidbody
       value: 
       objectReference: {fileID: 2025009960}
-    - target: {fileID: 7177918115359442196, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}
-      propertyPath: PlayerTransform
-      value: 
-      objectReference: {fileID: 2025009964}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f46090d6158317b4b8f4c9b2fce24eda, type: 3}

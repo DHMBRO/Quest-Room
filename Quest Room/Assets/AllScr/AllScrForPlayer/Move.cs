@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-   
+       
     [SerializeField] Transform PlayerTransform;
-    [SerializeField] Transform Camera;
+    [SerializeField] public Transform Camera;
     
     [SerializeField] Transform PointForRay;
     [SerializeField] Transform SlotHand;

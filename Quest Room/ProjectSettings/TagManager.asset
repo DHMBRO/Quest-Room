@@ -6,6 +6,7 @@ TagManager:
   tags:
   - KeyBlue
   - KeyRed
+  - Bullet
   layers:
   - Default
   - TransparentFX
